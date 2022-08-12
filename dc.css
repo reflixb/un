@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: flex-end;
+}
+.background {
+  height: 100vh;
+  width:  50vw;
+  background-color: rgb(10, 94, 10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+}
+.move {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.circ {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  border-radius: 100%;
+  box-shadow: 0px 1px 17px 36px rgba(11, 134, 13, 0.89);
+}
+.move2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.circ2 {
+  height: 510px;
+  width: 510px;
+  background-color: black;
+  border-radius: 100%;
+  box-shadow: 0px 1px 7px 13px  rgba(11, 134, 13, 0.89);
+ 
+}
+.move3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 510px;
+}
+.circ3 {
+  height: 480px;
+  width: 480px;
+  background-color: black;
+  border-radius: 100%;
+  box-shadow: 0px 1px 7px 13px inset rgba(11, 134, 13, 0.89);
+}
+.back {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: mygreen 3s infinite;
+  border-radius: 100%;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mygreen {
+  from {
+    transform:rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+
+.urt {
+  height: 280px;
+  width: 50px;
+  background-color: black;
+  box-shadow: 1px 1px 6px 8px rgba(11, 134, 13, 0.89);
+  position: relative;
+  z-index: 9;
+  right: 10px;
+}
+.dugui {
+  position: relative;
+  height: 280px;
+  width: 280px;
+  background-color: black;
+  border-radius: 100%;
+  box-shadow: -1px 1px 6px 8px rgba(11, 134, 13, 0.89);
+}
+.dugui > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: black;
+}
+.move7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+}
+.jijig {
+  height: 190px;
+  width: 190px;
+  border-radius: 100%;
+  background-color: black;
+  box-shadow: 0px 1px 17px 12px inset rgba(11, 134, 13, 0.89);
+}
+.blak {
+  height: 200px;
+  width: 270px;
+  background-color: black;
+}
+.popo {
+  height: 180px;
+  width: 250px;
+  background-color: blue;
+  border-radius: 100%;
+}
+.lolo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.blackj {
+  height: 160px;
+  width: 230px;
+  background-color: black;
+  border-radius: 100%;
+}
+.lolo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 250px;
+}
+.ds {
+  color: blue;
+  font-size: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+.buh {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 61px;
+}
+.sword {
+  position: absolute;
+  left: 0;
+}
+.word {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200px;
+}
+.urt2 {
+  z-index: 9;
+  height: 280px;
+  width: 50px;
+  background-color: black;
+  box-shadow: -1px 1px 6px 8px rgba(11, 134, 13, 0.89);
+  position: relative;
+  left: 10px;
+}
+.har {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  background-color: antiquewhite;
+}
